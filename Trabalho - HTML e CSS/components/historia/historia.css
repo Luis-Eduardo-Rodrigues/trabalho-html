@@ -95,6 +95,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .title{
     text-align: center;
@@ -108,4 +109,17 @@ main{
         -3.5px 3.5px 0px #000,
         3.5px -3.5px 0px #000,
         3.5px 0px 0px #000;
+}
+
+.btn-area{
+    margin-top: 40px;
+}
+
+.btn-area button{
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #7c4b48;
+    border: none;
+    cursor: pointer;
 }
